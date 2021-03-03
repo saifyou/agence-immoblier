@@ -1,0 +1,148 @@
+.ti {  
+    text-align: center;
+    background-image:url(image1.jpg);
+    height: 450px;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(188, 190, 186);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  
+  .se {
+      font-style: italic;
+      text-align: right;
+      color: crimson;
+  }
+  .li {
+      height: max-content;
+  }
+  .pa {
+      text-align: right;
+      color:blueviolet;
+  }
+
+  .ti {
+      text-align:center;
+  }
+       
+ 
+  .no {
+      text-align: center;
+  }
+  .cer {
+      border-radius:  50%; 
+      background-color: rgb(255, 72, 0);
+      width: 50%;
+      height: 50%;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .x {
+    background-color: #f1f1f1;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    border-radius: 40%;
+  }
+  .ic {
+      width: 3%;
+      position: absolute;
+      align-self: center; 
+  }
+  .x {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .y {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .w {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+  .z {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .bt input{
+      border-radius: 3%;
+      background-color: rgb(153, 137, 240);
+      border: none;
+      text-align: center;
+      cursor: pointer;      
+      
+    }
+    .bt {
+        text-align: right;
+    }
+    
+    .flex-container2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .hhhh {
+        background-color: teal;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+    }
+    .fas{
+        margin: 30px;
+        background-color: teal;
+        padding: 20px;
+        border-radius: 50%;
+        color: yellow;
+        font-size: 50px;
+    }
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fa-dollar-sign{
+        padding: 23px 35px 23px 35px; 
+    }
