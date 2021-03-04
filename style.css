@@ -8,6 +8,7 @@
         background-size: cover;
         height: 100vh;
         width: 100%;
+        
         }
   
 
@@ -20,8 +21,6 @@ body
         }
     
 
-  
-        
   .topnav a 
         {
         float: right;
@@ -72,6 +71,18 @@ body
         }
 
 
+   .parag1
+        {
+         size: 15px;
+         color: rgb(0, 0, 0);
+         text-align: center;
+         text-decoration: underline greenyellow;
+         text-transform: capitalize;
+         font-family:sans-serif;
+         font-size: 125%;
+        }
+
+
   .ti 
         {
         background-color:yellowgreen;
@@ -82,6 +93,7 @@ body
  
   .no 
         {
+         color: greenyellow;
         text-align: center;
         }
 
@@ -165,6 +177,8 @@ body
         border-radius: 12px;
         border: 2px solid greenyellow;
         }
+
+
         .bt input:hover{
             background-color: greenyellow;
             color: white;
@@ -193,6 +207,7 @@ body
         display: grid;
         grid-template-columns: auto auto auto auto;
         justify-content: center;
+        
         }
 
 
@@ -225,37 +240,38 @@ body
    .image 
         {
         display: flex;
-        border: solid 2px black; 
+        border: solid 2px yellowgreen; 
         }
 
 
-    .image img  
+      .image img  
         {
         height: 100%;
         width: 14.1VW;
         }
     
 
-    .flex-container 
+      .flex-container 
         {
         display: flex;
         justify-content: space-around;
         }
 
-        .vi{
+      .vi{
             border-radius: 15px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border: 2px solid greenyellow;
         }
-
-
-    /* .flex-container
-        {
-        background-color: #f1f1f1;
-        width: 400px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
-        } */
-
-       
+      .you
+      {
+           color: rgb(15, 15, 17);
+            font-family: verdana;
+            font-size: 300%; 
+            text-transform: capitalize;
+            font-family:sans-serif;
+      }
+      .fas
+      {
+         border: 2px solid greenyellow;   
+      }
+     
