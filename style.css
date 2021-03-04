@@ -1,148 +1,261 @@
-.ti {  
-    text-align: center;
-    background-image:url(image1.jpg);
-    height: 450px;
-  }
+.ti 
+        {  
+        margin-top: -20px;
+        text-align: center;
+        background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('./imag2.jpg'); 
+        height: 450px;
+        border:solid 1PX black;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        }
+  
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(188, 190, 186);
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+body 
+        {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+    
 
   
-  .se {
-      font-style: italic;
-      text-align: right;
-      color: crimson;
-  }
-  .li {
-      height: max-content;
-  }
-  .pa {
-      text-align: right;
-      color:blueviolet;
+        
+  .topnav a 
+        {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 10px;
+        }
+        
+  .topnav{
+      position: fixed;
   }
 
-  .ti {
-      text-align:center;
-  }
+  .topnav a:hover 
+        {
+        background-color:greenyellow;
+        color: black;
+        }
+  
+
+  .topnav a.active 
+        {
+        background-color: greenyellow;
+        color: white;
+        }
+
+  
+  .se 
+        {
+        font-style: italic;
+        text-align: right;
+        color:greenyellow;
+        }
+
+
+  .li 
+        {
+        height: max-content;
+        }
+
+
+  .parag
+        {
+        color:rgb(42, 30, 53);
+        line-height: 35px;
+        }
+
+
+  .ti 
+        {
+        background-color:yellowgreen;
+        color: black;
+        text-align:center;
+        }
        
  
-  .no {
-      text-align: center;
-  }
-  .cer {
-      border-radius:  50%; 
-      background-color: rgb(255, 72, 0);
-      width: 50%;
-      height: 50%;
-  }
-  .flex-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .x {
-    background-color: #f1f1f1;
-    margin: 50px;
-    padding: 50px;
-    font-size: 50px;
-    border-radius: 40%;
-  }
-  .ic {
-      width: 3%;
-      position: absolute;
-      align-self: center; 
-  }
-  .x {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  .y {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-
-  .w {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
+  .no 
+        {
+        text-align: center;
+        }
 
 
-  .z {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .bt input{
-      border-radius: 3%;
-      background-color: rgb(153, 137, 240);
-      border: none;
-      text-align: center;
-      cursor: pointer;      
-      
-    }
-    .bt {
-        text-align: right;
-    }
-    
-    .flex-container2 {
+  .cer 
+        {
+        border-radius:  50%; 
+        background-color: rgb(255, 72, 0);
+        width: 50%;
+        height: 50%;
+        }
+
+
+  .flex-container 
+        {
         display: flex;
         justify-content: center;
         align-content: center;
-    }
-    .hhhh {
-        background-color: teal;
-    }
+        }
+        
 
-    .grid{
+  .x 
+        {
+        background-color: #f1f1f1;
+        margin: 50px;
+        padding: 50px;
+        font-size: 50px;
+        border-radius: 40%;
+        }
+
+
+  .ic 
+        {
+        width: 3%;
+        position: absolute;
+        align-self: center; 
+        }
+
+
+  .x 
+        {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        }
+
+
+  .y 
+        {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        }
+
+
+  .w    
+        {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        }
+
+
+  .z 
+        {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        }
+  
+  .bt input
+        {
+        border-radius: 5%;
+        background-color: rgb(252, 253, 251);
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        font-size: 25px;
+        padding: 14px 40px;
+        color: greenyellow;
+        border-radius: 12px;
+        border: 2px solid greenyellow;
+        }
+        .bt input:hover{
+            background-color: greenyellow;
+            color: white;
+        }
+
+
+    .bt 
+        {
+        text-align: right;
+        max-width: 40px;
+        size: 60%;
+        }
+
+    
+    .flex-container2 
+        {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        }
+    
+    
+
+    .grid
+        {
         display: grid;
         grid-template-columns: auto auto auto auto;
         justify-content: center;
-    }
-    .fas{
+        }
+
+
+    .fas
+        {
         margin: 30px;
-        background-color: teal;
-        padding: 20px;
+        background-color: rgb(240, 238, 239);
+        padding: 50px;
         border-radius: 50%;
-        color: yellow;
+        color: greenyellow;
         font-size: 50px;
-    }
-    h2{
+        }
+
+    h2
+        {
         font-size: 20px;
         text-align: center;
-    }
+        }
 
-    .fa-dollar-sign{
-        padding: 23px 35px 23px 35px; 
-    }
+
+    .containr11 
+        {
+        display:flex;
+        justify-content: space-between;
+        margin: 2rem;
+        width: 50%;
+        }
+
+
+   .image 
+        {
+        display: flex;
+        border: solid 2px black; 
+        }
+
+
+    .image img  
+        {
+        height: 100%;
+        width: 14.1VW;
+        }
+    
+
+    .flex-container 
+        {
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .vi{
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+
+    /* .flex-container
+        {
+        background-color: #f1f1f1;
+        width: 400px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        } */
+
+       
